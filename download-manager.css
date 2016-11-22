@@ -1,0 +1,199 @@
+/* Donwload Manager */
+
+
+/* font declarations */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #e4e5ea;
+    color: #545358;
+}
+
+button {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 6px 48px;
+    background: #26bf8c;
+    color: #fff;
+    border: 0 none;
+    border-radius: 5px;
+}
+
+
+/* App Header */
+
+header {
+    background: #39495f;
+    position: relative;
+    height: 72px;
+}
+
+header #title {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 72px;
+    position: absolute;
+    left: 5%;
+}
+
+
+/* Contents */
+
+#container {
+    min-width: 800px;
+    top: 125px;
+    bottom: 50px;
+    background: #fff;
+    border: 1px solid #d8d9de;
+    border-radius: 3px;
+    margin: 5%;
+}
+
+.download-all {
+    margin-left: 38%;
+    right: 0;
+    padding: 25px;
+}
+
+.toolbar {
+    padding: 17px 20px;
+    border-bottom: 1px solid #c5c8cc;
+    line-height: 32px;
+}
+
+.toolbar .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toolbar #searchbox {
+    font-size: 13px;
+    line-height: 32px;
+    float: right;
+    min-height:32px;
+    margin-right: 3%;
+    padding-left: 30px;
+    border: 1px solid #e3e4e8;
+    border-radius: 2px;
+    background: #fff url(https://www.dropbox.com/s/8q5w3qupa6347d4/icon-sprite.png?dl=1&pv=1) no-repeat scroll 8px 10px;
+}
+
+#file_name {
+    font-size: 13px;
+    line-height: 32px;
+    min-height:32px;
+    border: 1px solid #e3e4e8;
+    border-radius: 2px;
+    width: 95%;
+    margin: 2px;
+    padding: 5px 5px 0px 10px;
+}
+
+table {
+    width: 100%;
+    overflow: auto;
+    background: #FFF;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.firstcoloumn {
+    width: 10%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.secondcoloumn {
+    width: 28%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.thirdcoloumn {
+    width: 50%;
+}
+
+.fourthcoloumn {
+    width: 12%;
+}
+
+
+/* border */
+
+#add_row {
+    border: 1px dashed #AAA;
+}
+#add_img {
+    width: 59px;
+    height: 64px;
+    margin: 10px 0px 10px 15px;
+    background: url(https://www.dropbox.com/s/8q5w3qupa6347d4/icon-sprite.png?dl=1&pv=1) 0px -600px;
+    background-repeat: no-repeat;
+}
+
+#add {
+    background-color: #004080;
+    opacity: 0.7;
+}
+
+th,
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    height: 45px;
+}
+
+th {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.sucess_file {
+    width: 59px;
+    height: 66px;
+    margin: 10px 0px 10px 15px;
+    background: url(https://www.dropbox.com/s/8q5w3qupa6347d4/icon-sprite.png?dl=1&pv=1) 0px -400px;
+    background-repeat: no-repeat;
+}
+
+.cancle {
+    position: relative;
+    margin-right: 35%;
+    float: right;
+    height: 25px;
+    width: 25px;
+    background: url(https://www.dropbox.com/s/8q5w3qupa6347d4/icon-sprite.png?dl=1&pv=1) 0px -200px;
+    background-repeat: no-repeat;
+}
+
+.progress {
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.progress-wrap {
+    background: #ccc;
+    margin: 25px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar {
+    background: #26BF8C;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: #fff;
+}

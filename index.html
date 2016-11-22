@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Download Manager</title>
+    <script type="text/javascript" src="download-manager.js"></script>
+    <link rel="stylesheet" type="text/css" href="download-manager.css">
+</head>
+
+<body>
+<header>
+    <div id="title">
+        Download Manager
+    </div>
+</header>
+
+<div id="container">
+    <div class="toolbar">
+        <span class="subtitle">Files to download</span>
+        <input id="searchbox" placeholder="Find by Name" /><span id="search_img"> </span>
+    </div>
+    <div class="placeholder">
+        <table id="myTable">
+            <tr id="add_row">
+                <td class="firstcoloumn"> <img id="add_img" src="https://maps.gstatic.com/mapfiles/markers2/dd-via-transparent.png" /></td>
+                <td class="secondcoloumn"> <input id="file_name" placeholder="File name to add"></td>
+                <td class="thirdcoloumn" colspan="2"> <button type="button" id="add">Add</button><span id="message"></span></td>
+                <td class="fourthcoloumn"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="download-all">
+    <button id="download">Download All</button>
+</div>
+
+</body>
+
+</html>
